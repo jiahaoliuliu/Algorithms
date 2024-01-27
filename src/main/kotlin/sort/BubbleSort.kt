@@ -19,15 +19,15 @@ class BubbleSort: RunTests() {
         for (i in 0 until mutableList.size - 1) {
             for (j in mutableList.size - 1 downTo i + 1) {
                 if (mutableList[j] < mutableList[j - 1]) {
-                    swap(mutableList, j, j-1)
+                    mutableList.swap(j, j-1)
                 }
             }
         }
     }
 
-    private fun swap(list: MutableList<Int>, i: Int, j: Int) {
-        val tmp = list[i]
-        list[i] = list[j]
-        list[j] = tmp
+    private fun<T> MutableList<T>.swap(i: Int, j: Int) {
+        val tmp = this[i]
+        this[i] = this[j]
+        this[j] = tmp
     }
 }
