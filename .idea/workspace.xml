@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="adb3e860-1e1d-4423-8c16-782b6b7fdf7b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/META-INF/Algorithms.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/META-INF/Algorithms.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/sort/BubbleSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sort/BubbleSort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sort/SortTests.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sort/RunTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sort/RunTests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +71,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BubbleSort.generateList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.BubbleSort" />
+      <option name="METHOD_NAME" value="generateList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BubbleSort.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <extension name="coverage">
@@ -104,22 +119,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSort.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sort" />
-      <option name="MAIN_CLASS_NAME" value="sort.BubbleSort" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <extension name="coverage">
@@ -138,10 +137,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BubbleSort" />
+        <item itemvalue="JUnit.BubbleSort.generateList" />
+        <item itemvalue="JUnit.BubbleSort.generateList" />
+        <item itemvalue="JUnit.BubbleSort.generateList" />
         <item itemvalue="JUnit.BubbleSort.test" />
-        <item itemvalue="JUnit.SortTests" />
-        <item itemvalue="JUnit.BubbleSort.main" />
-        <item itemvalue="JUnit.BubbleSort.test1" />
       </list>
     </recent_temporary>
   </component>
