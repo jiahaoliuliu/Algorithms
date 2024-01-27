@@ -1,5 +1,7 @@
 package sort
 
+import swap
+
 /**
  * Bubble sort gets one element per time, going through the list and swap its position with others when
  * needed.
@@ -14,6 +16,12 @@ class BubbleSort: RunTests() {
      *    number on the position of step 1
      *    Since the swap happens from current position to the position right proceed it,
      *    it goes from the last position until the 1 right before the first position to be replaced
+     * Complexity:
+     * - Time
+     * -    Worse case: O(n^2), where n is the number of elements to be sorted
+     * - Space
+     * -    O(1) since the operation swap is in-place
+     *
      */
     override fun sortAlgorithm(mutableList: MutableList<Int>) {
         for (i in 0 until mutableList.size - 1) {
@@ -23,11 +31,5 @@ class BubbleSort: RunTests() {
                 }
             }
         }
-    }
-
-    private fun<T> MutableList<T>.swap(i: Int, j: Int) {
-        val tmp = this[i]
-        this[i] = this[j]
-        this[j] = tmp
     }
 }
