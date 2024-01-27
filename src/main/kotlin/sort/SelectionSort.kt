@@ -18,12 +18,10 @@ class SelectionSort: RunTests() {
      */
     override fun sortAlgorithm(mutableList: MutableList<Int>) {
         for (index in 0 until mutableList.size - 1) {
-            var min = mutableList[index]
             var minPos = index
             // Find the smallest item and its position
             for (i in index + 1 until mutableList.size) {
-                 if (mutableList[i] < min) {
-                     min = mutableList[i]
+                 if (mutableList[i] < mutableList[minPos]) {
                      minPos = i
                  }
             }
