@@ -32,6 +32,18 @@ abstract class RunTests {
         assertTrue(listOf(0, 1, 2, 3, 4, 6) == myList)
     }
 
+    private var list = List(10) { it * 4 }
+    private var listShuffled = list.shuffled().toMutableList()
+
+    @Test
+    fun testBasic_3() {
+        // When
+        sortAlgorithm(listShuffled)
+
+        // Then
+        assertTrue(listShuffled == list)
+    }
+
     // Special cases
     private var longList = List(100) { it * 4 }
     private var longListShuffled = longList.shuffled().toMutableList()
