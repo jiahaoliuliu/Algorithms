@@ -56,6 +56,12 @@ class QuickSort: RunTests() {
      * 4. If left and right points to the same element -> Swap that element with pivot
      * 4. Recursively apply the algorithm to the left side
      * 5. Recursively apply the algorithm to the right side
+     *
+     * Complexity
+     * - Time: Worse case scenario O(n^2)
+     *         Best case scenario O(n log n)
+     *         Average case scenario O(n log n)
+     * - Space complexity: O(n) because the modification is done in-place
      */
     override fun sortAlgorithm(mutableList: MutableList<Int>) {
         // 0 Corner cases. if the list is empty or the list only have one element, finish
