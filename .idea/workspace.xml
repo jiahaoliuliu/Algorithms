@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="adb3e860-1e1d-4423-8c16-782b6b7fdf7b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sort/BubbleSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sort/BubbleSort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sort/InsertionSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sort/InsertionSort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sort/MergeSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sort/MergeSort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sort/QuickSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sort/QuickSort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sort/RunTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sort/RunTests.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sort/SelectionSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sort/SelectionSort.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +53,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.sort in Algorithms">
+  <component name="RunManager" selected="JUnit.QuickSort2">
     <configuration name="BubbleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <extension name="coverage">
@@ -90,6 +84,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuickSort2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.QuickSort2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickSort.testBasic4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <extension name="coverage">
@@ -101,22 +110,6 @@
       <option name="PACKAGE_NAME" value="sort" />
       <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
       <option name="METHOD_NAME" value="testBasic4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSort.testBasic_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sort" />
-      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
-      <option name="METHOD_NAME" value="testBasic_4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QuickSort2" />
         <item itemvalue="JUnit.sort in Algorithms" />
         <item itemvalue="JUnit.QuickSort" />
         <item itemvalue="JUnit.BubbleSort" />
         <item itemvalue="JUnit.QuickSort.testBasic4" />
-        <item itemvalue="JUnit.QuickSort.testBasic_4" />
       </list>
     </recent_temporary>
   </component>
