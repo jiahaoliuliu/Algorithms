@@ -14,7 +14,7 @@ class InsertionSort: RunTests() {
      * - Time: O(N^2) because there are 2 loops, where n is the number of elements in the list
      * - Space: O(1) because the operation is done in-place
      */
-    override fun sortAlgorithm(mutableList: MutableList<Int>) {
+    override fun <T: Comparable<T>> sortAlgorithm(mutableList: MutableList<T>) {
         // i is the border of the sorted list
         // from 0 to i, all the elements should be sorted
         for (i in 1 until mutableList.size) {

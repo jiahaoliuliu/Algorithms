@@ -63,7 +63,7 @@ class QuickSort: RunTests() {
      *         Average case scenario O(n log n)
      * - Space complexity: O(n) because the modification is done in-place
      */
-    override fun sortAlgorithm(mutableList: MutableList<Int>) {
+    override fun <T: Comparable<T>> sortAlgorithm(mutableList: MutableList<T>) {
         // 0 Corner cases. if the list is empty or the list only have one element, finish
         if (mutableList.isEmpty() || mutableList.size == 1) {
             return

@@ -16,7 +16,7 @@ class SelectionSort: RunTests() {
      * - Time: O(N^2) because there are two loops in the algorithm
      * - Space: O(1) because the operation is done in-place
      */
-    override fun sortAlgorithm(mutableList: MutableList<Int>) {
+    override fun <T: Comparable<T>> sortAlgorithm(mutableList: MutableList<T>) {
         for (index in 0 until mutableList.size - 1) {
             var minPos = index
             // Find the smallest item and its position

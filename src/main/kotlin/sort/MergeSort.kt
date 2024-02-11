@@ -9,7 +9,7 @@ class MergeSort: RunTests() {
      * Every time the list is merged, it is done merging two lists at time.
      * This algorithm uses recursive
      */
-    override fun sortAlgorithm(mutableList: MutableList<Int>) {
+    override fun <T: Comparable<T>> sortAlgorithm(mutableList: MutableList<T>) {
         // Check for corner cases
         if (mutableList.isEmpty() || mutableList.size == 1) {
             return
@@ -71,7 +71,7 @@ class MergeSort: RunTests() {
      *       // Both leftIndex and rightIndex has reached to the end
      *       Nothing to do here
      */
-    private fun merge(originalList: MutableList<Int>, left: MutableList<Int>, right: MutableList<Int>) {
+    private fun <T: Comparable<T>> merge(originalList: MutableList<T>, left: MutableList<T>, right: MutableList<T>) {
         var leftIndex = 0
         var rightIndex = 0
         for (i in 0 until originalList.size) {

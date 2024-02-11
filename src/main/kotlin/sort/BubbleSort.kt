@@ -23,7 +23,7 @@ class BubbleSort: RunTests() {
      * -    O(1) since the operation swap is in-place
      *
      */
-    override fun sortAlgorithm(mutableList: MutableList<Int>) {
+    override fun <T: Comparable<T>> sortAlgorithm(mutableList: MutableList<T>) {
         for (i in 0 until mutableList.size - 1) {
             for (j in mutableList.size - 1 downTo i + 1) {
                 if (mutableList[j] < mutableList[j - 1]) {

@@ -5,7 +5,7 @@ import org.junit.Test
 
 abstract class RunTests {
 
-    abstract fun sortAlgorithm(mutableList: MutableList<Int>)
+    abstract fun <T: Comparable<T>> sortAlgorithm(mutableList: MutableList<T>)
 
     // Basic cases
     @Test
