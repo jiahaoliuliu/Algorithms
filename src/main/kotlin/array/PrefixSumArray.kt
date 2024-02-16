@@ -23,17 +23,17 @@ import org.junit.Test
 class PrefixSumArray {
 
     private fun prefixSum(input: IntArray): IntArray {
-        val result = mutableListOf<Int>()
+        val result = IntArray(input.size)
 
         for (i in input.indices) {
             if (i == 0) {
-                result.add(input[i])
+                result[i] = input[i]
             } else {
-                result.add(input[i] + result[i - 1])
+                result[i] = input[i] + result[i - 1]
             }
         }
 
-        return result.toIntArray()
+        return result
     }
 
     @Test
