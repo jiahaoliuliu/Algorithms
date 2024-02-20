@@ -43,7 +43,7 @@ class ClimbingStairs {
      *
      * Table: Per each step, store the possible value
      */
-    private fun climbStairs(n: Int): Int {
+    private fun climbStairsTabulation(n: Int): Int {
         // Corner case
         if (n == 1) return 1
         if (n == 2) return 2
@@ -73,7 +73,7 @@ class ClimbingStairs {
         val n = 2
 
         // When
-        val result = climbStairs(n)
+        val result = climbStairsTabulation(n)
 
         // Then
         assertEquals(2, result)
@@ -85,7 +85,7 @@ class ClimbingStairs {
         val n = 3
 
         // When
-        val result = climbStairs(n)
+        val result = climbStairsTabulation(n)
 
         // Then
         assertEquals(3, result)
