@@ -4,7 +4,7 @@ package search
  * Simple linear search
  *
  */
-class LinearSearch<T>: SearchAlgorithms<T>() {
+class LinearSearch<T>: SearchAlgorithm<T>() {
 
     /**
      * Simple linear search

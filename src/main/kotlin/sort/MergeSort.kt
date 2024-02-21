@@ -1,6 +1,6 @@
 package sort
 
-class MergeSort: SortAlgorithms() {
+class MergeSort: SortAlgorithm() {
 
     /**
      * Algorithm

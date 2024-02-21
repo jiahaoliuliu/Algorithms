@@ -2,7 +2,7 @@ package sort
 
 import swap
 
-class InsertionSort: SortAlgorithms() {
+class InsertionSort: SortAlgorithm() {
 
     /**
      * Algorithm

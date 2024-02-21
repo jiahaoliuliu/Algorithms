@@ -4,7 +4,7 @@ import org.junit.Assert
 import org.junit.Test
 import swap
 
-class QuickSort: SortAlgorithms() {
+class QuickSort: SortAlgorithm() {
 
     /**
      * Algorithm:

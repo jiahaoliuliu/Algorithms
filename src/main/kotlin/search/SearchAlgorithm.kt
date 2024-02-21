@@ -3,7 +3,7 @@ package search
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
-abstract class SearchAlgorithms<T> {
+abstract class SearchAlgorithm<T> {
 
     /**
      * Finding the position of the target in the arr

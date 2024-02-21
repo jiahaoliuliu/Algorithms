@@ -3,7 +3,7 @@ package sort
 import org.junit.Assert.assertTrue
 import org.junit.Test
 
-abstract class SortAlgorithms {
+abstract class SortAlgorithm {
 
     abstract fun <T: Comparable<T>> sortAlgorithm(mutableList: MutableList<T>)
 
