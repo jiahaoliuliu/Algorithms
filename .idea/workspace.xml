@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="adb3e860-1e1d-4423-8c16-782b6b7fdf7b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/search/sorted/BinarySearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/search/sorted/BinarySearch.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
       <recent name="heap" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearch (1)">
+  <component name="RunManager" selected="JUnit.FindingLeftestElementImpl">
     <configuration name="BinarySearch (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <extension name="coverage">
@@ -76,37 +75,6 @@
       <option name="PACKAGE_NAME" value="search.sorted" />
       <option name="MAIN_CLASS_NAME" value="search.sorted.BinarySearch" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="search" />
-      <option name="MAIN_CLASS_NAME" value="search.BinarySearch" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySearch.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="search.sorted.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="search.sorted" />
-      <option name="MAIN_CLASS_NAME" value="search.sorted.BinarySearch" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,13 +111,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FindingLeftestElementImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.sorted.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="search.sorted" />
+      <option name="MAIN_CLASS_NAME" value="search.sorted.FindingLeftestElementImpl" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindingLeftestElementImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.sorted.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="search.sorted" />
+      <option name="MAIN_CLASS_NAME" value="search.sorted.FindingLeftestElementImpl" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindingLeftestElementImpl" />
+        <item itemvalue="JUnit.FindingLeftestElementImpl" />
+        <item itemvalue="JUnit.FindingLeftestElementImpl.test1" />
         <item itemvalue="JUnit.BinarySearch (1)" />
         <item itemvalue="JUnit.BinarySearch.test2 (1)" />
-        <item itemvalue="JUnit.BinarySearch.test2" />
-        <item itemvalue="JUnit.BinarySearch.test1" />
-        <item itemvalue="JUnit.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
