@@ -1,6 +1,6 @@
 package sort
 
-class MergeSort: RunTests() {
+class MergeSort: SortAlgorithms() {
 
     /**
      * Algorithm

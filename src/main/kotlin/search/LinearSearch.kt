@@ -4,7 +4,7 @@ package search
  * Simple linear search
  *
  */
-class LinearSearch: SearchTests() {
+class LinearSearch: SearchAlgorithms() {
 
     /**
      * Simple linear search

@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="adb3e860-1e1d-4423-8c16-782b6b7fdf7b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/array/MaximumSubarray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/array/KadaneMaximumSubarray.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sort/QuickSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sort/QuickSort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/search/SearchTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/search/SearchTests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,10 +141,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LinearSearch" />
+        <item itemvalue="JUnit.LinearSearch" />
+        <item itemvalue="JUnit.LinearSearch" />
+        <item itemvalue="JUnit.LinearSearch" />
         <item itemvalue="JUnit.MinHeap" />
-        <item itemvalue="JUnit.MinHeap.test1" />
-        <item itemvalue="JUnit.PrefixSumArray" />
-        <item itemvalue="JUnit.PostfixSumArray" />
       </list>
     </recent_temporary>
   </component>

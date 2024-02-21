@@ -2,7 +2,7 @@ package sort
 
 import swap
 
-class QuickSort2: RunTests() {
+class QuickSort2: SortAlgorithms() {
 
     override fun <T : Comparable<T>> sortAlgorithm(mutableList: MutableList<T>) {
         // 1. Init the data

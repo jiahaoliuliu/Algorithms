@@ -3,7 +3,7 @@ package sort
 import swap
 
 
-class SelectionSort: RunTests() {
+class SelectionSort: SortAlgorithms() {
     /**
      * Algorithm
      * - Insertion sort is a two-step algorithm

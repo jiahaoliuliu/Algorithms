@@ -7,7 +7,7 @@ import swap
  * needed.
  *
  */
-class BubbleSort: RunTests() {
+class BubbleSort: SortAlgorithms() {
     /**
      * Algorithm:
      * This algorithm do the following
