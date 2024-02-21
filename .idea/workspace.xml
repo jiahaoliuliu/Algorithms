@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adb3e860-1e1d-4423-8c16-782b6b7fdf7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/search/sorted/BinarySearch.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/search/BinarySearch.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/search/SearchAlgorithm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/search/SearchAlgorithm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/search/sorted/BinarySearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/search/sorted/BinarySearch.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +64,22 @@
       <recent name="heap" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearch">
+  <component name="RunManager" selected="JUnit.BinarySearch (1)">
+    <configuration name="BinarySearch (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.sorted.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="search.sorted" />
+      <option name="MAIN_CLASS_NAME" value="search.sorted.BinarySearch" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <extension name="coverage">
@@ -82,74 +95,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinarySearch.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="search.*" />
+          <option name="PATTERN" value="search.sorted.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="search" />
-      <option name="MAIN_CLASS_NAME" value="search.LinearSearch" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinHeap.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="heap" />
-      <option name="MAIN_CLASS_NAME" value="heap.MinHeap" />
+      <option name="PACKAGE_NAME" value="search.sorted" />
+      <option name="MAIN_CLASS_NAME" value="search.sorted.BinarySearch" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostfixSumArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinarySearch.test2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="search.sorted.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="array" />
-      <option name="MAIN_CLASS_NAME" value="array.PostfixSumArray" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="search.sorted" />
+      <option name="MAIN_CLASS_NAME" value="search.sorted.BinarySearch" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrefixSumArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinarySearch.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="search.sorted.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="array" />
-      <option name="MAIN_CLASS_NAME" value="array.PrefixSumArray" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="search.sorted" />
+      <option name="MAIN_CLASS_NAME" value="search.sorted.BinarySearch" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinarySearch (1)" />
+        <item itemvalue="JUnit.BinarySearch.test2 (1)" />
+        <item itemvalue="JUnit.BinarySearch.test2" />
+        <item itemvalue="JUnit.BinarySearch.test1" />
         <item itemvalue="JUnit.BinarySearch" />
-        <item itemvalue="JUnit.LinearSearch" />
-        <item itemvalue="JUnit.LinearSearch" />
-        <item itemvalue="JUnit.LinearSearch" />
-        <item itemvalue="JUnit.LinearSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +192,11 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/array/PrefixSumArray.kt</url>
           <line>44</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/search/sorted/SearchAlgorithmSorted.kt</url>
+          <line>33</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
