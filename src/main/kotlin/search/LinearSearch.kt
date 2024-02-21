@@ -4,7 +4,7 @@ package search
  * Simple linear search
  *
  */
-class LinearSearch: SearchAlgorithms() {
+class LinearSearch<T>: SearchAlgorithms<T>() {
 
     /**
      * Simple linear search
@@ -13,7 +13,7 @@ class LinearSearch: SearchAlgorithms() {
      * - Time: O(n)
      * - Space: O(1)
      */
-    override fun search(arr: IntArray, target: Int): Int {
+    override fun<T> search(arr: Array<T>, target: T): Int {
         arr.forEachIndexed { index, i ->
             if (i == target) return index
         }
