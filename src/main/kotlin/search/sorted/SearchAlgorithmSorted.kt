@@ -1,15 +1,15 @@
-package search
+package search.sorted
 
-import org.junit.Assert.assertEquals
+import org.junit.Assert
 import org.junit.Test
 
-abstract class SearchAlgorithm<T> {
+abstract class SearchAlgorithmSorted<T: Comparable<T>> {
 
     /**
      * Finding the position of the target in the arr
      * If the target cannot be found, return -1
      */
-    abstract fun <T> search(arr: Array<T>, target: T): Int
+    abstract fun <T:Comparable<T>> search(arr: Array<T>, target: T): Int
 
     @Test
     fun test1() {
@@ -21,7 +21,7 @@ abstract class SearchAlgorithm<T> {
         val result = search(arr, target)
 
         // Then
-        assertEquals(4, result)
+        Assert.assertEquals(4, result)
     }
 
     @Test
@@ -34,7 +34,7 @@ abstract class SearchAlgorithm<T> {
         val result = search(arr, target)
 
         // Then
-        assertEquals(-1, result)
+        Assert.assertEquals(-1, result)
     }
 
     @Test
@@ -47,7 +47,7 @@ abstract class SearchAlgorithm<T> {
         val result = search(arr, target)
 
         // Then
-        assertEquals(2, result)
+        Assert.assertEquals(2, result)
     }
 
     @Test
@@ -60,6 +60,7 @@ abstract class SearchAlgorithm<T> {
         val result = search(arr, target)
 
         // Then
-        assertEquals(7, result)
+        Assert.assertEquals(7, result)
     }
+
 }
