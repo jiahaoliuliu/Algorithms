@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="adb3e860-1e1d-4423-8c16-782b6b7fdf7b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dynamicprogramming/ClimbingStairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dynamicprogramming/ClimbingStairs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/array/MaximumSubarray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/array/KadaneMaximumSubarray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sort/QuickSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sort/QuickSort.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,22 @@
       <recent name="heap" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MinHeap">
+  <component name="RunManager" selected="JUnit.LinearSearch">
+    <configuration name="LinearSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="search" />
+      <option name="MAIN_CLASS_NAME" value="search.LinearSearch" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinHeap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <extension name="coverage">
@@ -123,29 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrefixSumArray.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="array" />
-      <option name="MAIN_CLASS_NAME" value="array.PrefixSumArray" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinearSearch" />
         <item itemvalue="JUnit.MinHeap" />
         <item itemvalue="JUnit.MinHeap.test1" />
         <item itemvalue="JUnit.PrefixSumArray" />
         <item itemvalue="JUnit.PostfixSumArray" />
-        <item itemvalue="JUnit.PrefixSumArray.test1" />
       </list>
     </recent_temporary>
   </component>

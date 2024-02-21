@@ -1,0 +1,7 @@
+package search
+
+
+
+
+class BinarySearch {
+}
