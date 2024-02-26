@@ -47,7 +47,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/jiaha/OneDrive/Documents/projects/github/Algorithms/src/main/kotlin/search/sorted",
+    "last_opened_file_path": "C:/Users/jiaha/OneDrive/Documents/projects/github/Algorithms/src/main/kotlin/math",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -56,6 +56,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\Algorithms\src\main\kotlin\math" />
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\Algorithms\src\main\kotlin\search\sorted" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -67,7 +68,22 @@
       <recent name="heap" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GreatestCommonDivisor.test2">
+  <component name="RunManager" selected="JUnit.BinaryConverterImpl">
+    <configuration name="BinaryConverterImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="math" />
+      <option name="MAIN_CLASS_NAME" value="math.BinaryConverterImpl" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindingLeftestElementImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <extension name="coverage">
@@ -79,22 +95,6 @@
       <option name="PACKAGE_NAME" value="search.sorted" />
       <option name="MAIN_CLASS_NAME" value="search.sorted.FindingLeftestElementImpl" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindingLeftestElementImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="search.sorted.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="search.sorted" />
-      <option name="MAIN_CLASS_NAME" value="search.sorted.FindingLeftestElementImpl" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,10 +148,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinaryConverterImpl" />
         <item itemvalue="JUnit.GreatestCommonDivisor.test2" />
         <item itemvalue="JUnit.GreatestCommonDivisor.test1" />
         <item itemvalue="JUnit.FindingRightestElementImpl" />
-        <item itemvalue="JUnit.FindingLeftestElementImpl" />
         <item itemvalue="JUnit.FindingLeftestElementImpl" />
       </list>
     </recent_temporary>
