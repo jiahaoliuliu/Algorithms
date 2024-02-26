@@ -1,5 +1,6 @@
 package linkedlist.easy
 
+import linkedlist.ListNode
 import org.junit.Assert.*
 import org.junit.Test
 
@@ -178,7 +179,7 @@ class RemoveLinkedListElementsImpl : RemoveLinkedListElements() {
      */
     override fun removeElements(head: ListNode?, `val`: Int): ListNode? {
         // 1. Init the value
-        var firstNode:ListNode? = null
+        var firstNode: ListNode? = null
         var current = head
         var previous: ListNode? = null
 
@@ -223,7 +224,7 @@ class RemoveLinkedListElementsOptimalSol: RemoveLinkedListElements() {
         // 1. Init
         val sentinel = ListNode(0)
         sentinel.next = head
-        var current:ListNode? = head
+        var current: ListNode? = head
         var previous: ListNode = sentinel
 
         // 2. Loop
