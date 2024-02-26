@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="adb3e860-1e1d-4423-8c16-782b6b7fdf7b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/ListNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/ListNode.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/math/BaseConverter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/math/BaseConverter.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
       <recent name="heap" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MiddleOfALinkedListImpl">
+  <component name="RunManager" selected="JUnit.RemoveLinkedListElementsImpl and 1 more">
     <configuration name="BinaryConverterImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <extension name="coverage">
@@ -83,21 +81,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="math" />
       <option name="MAIN_CLASS_NAME" value="math.BinaryConverterImpl" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindingRightestElementImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="search.sorted.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="search.sorted" />
-      <option name="MAIN_CLASS_NAME" value="search.sorted.FindingRightestElementImpl" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,13 +133,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveLinkedListElementsImpl and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linkedlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.RemoveLinkedListElements" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="linkedlist.easy.RemoveLinkedListElementsImpl" />
+        <pattern testClass="linkedlist.easy.RemoveLinkedListElementsOptimalSol" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RemoveLinkedListElementsImpl and 1 more" />
         <item itemvalue="JUnit.MiddleOfALinkedListImpl" />
         <item itemvalue="JUnit.BinaryConverterImpl" />
         <item itemvalue="JUnit.GreatestCommonDivisor.test2" />
         <item itemvalue="JUnit.GreatestCommonDivisor.test1" />
-        <item itemvalue="JUnit.FindingRightestElementImpl" />
       </list>
     </recent_temporary>
   </component>
