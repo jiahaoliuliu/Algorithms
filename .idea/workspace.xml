@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="adb3e860-1e1d-4423-8c16-782b6b7fdf7b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MiddleOfALinkedList-FastSlowPointers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/MiddleOfALinkedList-FastSlowPointers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/RemoveLinkedListElements.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +59,15 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\Algorithms\src\main\kotlin\linkedlist\easy" />
+      <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\Algorithms\src\main\kotlin\linkedlist" />
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\Algorithms\src\main\kotlin\math" />
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\Algorithms\src\main\kotlin\search\sorted" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\Algorithms\src\main\kotlin\linkedlist\medium" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="linkedlist" />
       <recent name="search.sorted" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
@@ -70,38 +77,7 @@
       <recent name="heap" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.linkedlist in Algorithms">
-    <configuration name="BinaryConverterImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="math" />
-      <option name="MAIN_CLASS_NAME" value="math.BinaryConverterImpl" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GreatestCommonDivisor.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="math" />
-      <option name="MAIN_CLASS_NAME" value="math.GreatestCommonDivisor" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MiddleOfALinkedListImpl.test2">
     <configuration name="MiddleOfALinkedListImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <extension name="coverage">
@@ -113,6 +89,38 @@
       <option name="PACKAGE_NAME" value="linkedlist.easy" />
       <option name="MAIN_CLASS_NAME" value="linkedlist.easy.MiddleOfALinkedListImpl" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiddleOfALinkedListImpl.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linkedlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.MiddleOfALinkedListImpl" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiddleOfALinkedListImpl.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linkedlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.MiddleOfALinkedListImpl" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MiddleOfALinkedListImpl.test2" />
+        <item itemvalue="JUnit.MiddleOfALinkedListImpl.test1" />
+        <item itemvalue="JUnit.MiddleOfALinkedListImpl.test1" />
         <item itemvalue="JUnit.linkedlist in Algorithms" />
         <item itemvalue="JUnit.RemoveLinkedListElementsImpl and 1 more" />
-        <item itemvalue="JUnit.MiddleOfALinkedListImpl" />
-        <item itemvalue="JUnit.BinaryConverterImpl" />
-        <item itemvalue="JUnit.GreatestCommonDivisor.test2" />
       </list>
     </recent_temporary>
   </component>

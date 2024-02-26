@@ -1,6 +1,7 @@
 package linkedlist.easy
 
 import linkedlist.ListNode
+import linkedlist.toLinkedList
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
@@ -42,51 +43,39 @@ abstract class MiddleOfALinkedList {
     @Test
     fun test1() {
         // Given
-        val node1 = ListNode(1)
-        val node2 = ListNode(2)
-        node1.next = node2
-
-        val node3 = ListNode(3)
-        node2.next = node3
-
-        val node4 = ListNode(4)
-        node3.next = node4
-
-        val node5 = ListNode(5)
-        node4.next = node5
+        val list = listOf(1, 2, 3, 4, 5)
+        val head = list.toLinkedList()
+//        val node1 = ListNode(1)
+//        val node2 = ListNode(2)
+//        node1.next = node2
+//
+//        val node3 = ListNode(3)
+//        node2.next = node3
+//
+//        val node4 = ListNode(4)
+//        node3.next = node4
+//
+//        val node5 = ListNode(5)
+//        node4.next = node5
 
         // When
-        val result = middleNode(node1)
+        val result = middleNode(head)
 
         // Then
-        assertEquals(node3, result)
+        assertEquals(head?.next?.next, result)
     }
 
     @Test
     fun test2() {
         // Given
-        val node1 = ListNode(1)
-
-        val node2 = ListNode(2)
-        node1.next = node2
-
-        val node3 = ListNode(3)
-        node2.next = node3
-
-        val node4 = ListNode(4)
-        node3.next = node4
-
-        val node5 = ListNode(5)
-        node4.next = node5
-
-        val node6 = ListNode(6)
-        node5.next = node6
+        val list = listOf(1, 2, 3, 4, 5, 6)
+        val head = list.toLinkedList()
 
         // When
-        val result = middleNode(node1)
+        val result = middleNode(head)
 
         // Then
-        assertEquals(node4, result)
+        assertEquals(head?.next?.next?.next, result)
     }
 }
 
