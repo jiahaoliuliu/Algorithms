@@ -16,7 +16,7 @@ import org.junit.Test
  * - "101", base 8 = 1 * 8 ^ 2 + 0 * 8 ^ 1 + 1 * 8 ^ 0 = 64 + 0 + 1 = 65
  * - "723", base 8 = 7 * 8 ^ 2 + 2 * 8 ^ 1 + 3 * 8 ^ 0 = 448 + 16 + 3 = 467
  *
- * For base bigger than 10, the String will be represented with English upper characters, where
+ * For base bigger than 10, the String will be represented with MiddleOfALinkedList.ktEnglish upper characters, where
  * "A" = 10, "B" = 11, and so on
  * Example:
  * - "ABC", base 16 = 2748

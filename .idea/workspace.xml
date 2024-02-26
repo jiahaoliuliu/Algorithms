@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="adb3e860-1e1d-4423-8c16-782b6b7fdf7b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/ListNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/ListNode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/math/BaseConverter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/math/BaseConverter.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/jiaha/OneDrive/Documents/projects/github/Algorithms/src/main/kotlin/math",
+    "last_opened_file_path": "C:/Users/jiaha/OneDrive/Documents/projects/github/Algorithms/src/main/kotlin/linkedlist/easy",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -56,6 +58,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\Algorithms\src\main\kotlin\linkedlist\easy" />
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\Algorithms\src\main\kotlin\math" />
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\Algorithms\src\main\kotlin\search\sorted" />
     </key>
@@ -63,12 +66,13 @@
       <recent name="search.sorted" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="linkedlist.easy" />
       <recent name="dynamicprogramming" />
       <recent name="array" />
       <recent name="heap" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BinaryConverterImpl">
+  <component name="RunManager" selected="JUnit.MiddleOfALinkedListImpl">
     <configuration name="BinaryConverterImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <extension name="coverage">
@@ -79,21 +83,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="math" />
       <option name="MAIN_CLASS_NAME" value="math.BinaryConverterImpl" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindingLeftestElementImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="search.sorted.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="search.sorted" />
-      <option name="MAIN_CLASS_NAME" value="search.sorted.FindingLeftestElementImpl" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,13 +135,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MiddleOfALinkedListImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linkedlist.easy" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.MiddleOfALinkedListImpl" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MiddleOfALinkedListImpl" />
         <item itemvalue="JUnit.BinaryConverterImpl" />
         <item itemvalue="JUnit.GreatestCommonDivisor.test2" />
         <item itemvalue="JUnit.GreatestCommonDivisor.test1" />
         <item itemvalue="JUnit.FindingRightestElementImpl" />
-        <item itemvalue="JUnit.FindingLeftestElementImpl" />
       </list>
     </recent_temporary>
   </component>
