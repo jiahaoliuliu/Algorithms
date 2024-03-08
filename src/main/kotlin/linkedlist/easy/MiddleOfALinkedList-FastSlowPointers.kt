@@ -45,18 +45,6 @@ abstract class MiddleOfALinkedList {
         // Given
         val list = listOf(1, 2, 3, 4, 5)
         val head = list.toLinkedList()
-//        val node1 = ListNode(1)
-//        val node2 = ListNode(2)
-//        node1.next = node2
-//
-//        val node3 = ListNode(3)
-//        node2.next = node3
-//
-//        val node4 = ListNode(4)
-//        node3.next = node4
-//
-//        val node5 = ListNode(5)
-//        node4.next = node5
 
         // When
         val result = middleNode(head)
