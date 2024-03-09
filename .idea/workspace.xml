@@ -70,15 +70,15 @@
       <recent name="search.sorted" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="array" />
       <recent name="string" />
       <recent name="linkedlist.easy" />
       <recent name="dynamicprogramming" />
-      <recent name="array" />
       <recent name="heap" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MiddleOfALinkedListImpl.test2">
-    <configuration name="MiddleOfALinkedListImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LinkedListLengthImpl">
+    <configuration name="LinkedListLengthImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -87,7 +87,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="linkedlist.easy" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.MiddleOfALinkedListImpl" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.easy.LinkedListLengthImpl" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinkedListLengthImpl" />
         <item itemvalue="JUnit.MiddleOfALinkedListImpl.test2" />
         <item itemvalue="JUnit.MiddleOfALinkedListImpl.test1" />
         <item itemvalue="JUnit.MiddleOfALinkedListImpl.test1" />
         <item itemvalue="JUnit.linkedlist in Algorithms" />
-        <item itemvalue="JUnit.RemoveLinkedListElementsImpl and 1 more" />
       </list>
     </recent_temporary>
   </component>
