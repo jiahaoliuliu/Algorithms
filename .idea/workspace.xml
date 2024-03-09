@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adb3e860-1e1d-4423-8c16-782b6b7fdf7b" name="Changes" comment="" />
+    <list default="true" id="adb3e860-1e1d-4423-8c16-782b6b7fdf7b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/RemoveLinkedListElements.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/RemoveLinkedListElements.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,8 +70,8 @@
       <recent name="search.sorted" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="array" />
       <recent name="string" />
+      <recent name="array" />
       <recent name="linkedlist.easy" />
       <recent name="dynamicprogramming" />
       <recent name="heap" />
