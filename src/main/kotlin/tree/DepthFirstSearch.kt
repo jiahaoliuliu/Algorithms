@@ -1,5 +1,7 @@
 package tree
 
+import org.junit.Test
+
 /**
  * Depth first search algorithm
  *
@@ -22,11 +24,13 @@ class DepthFirstSearch<T>(private val root: Node<T>) {
                 return node
             }
 
-            node.leftNode?.let {
+            // The right node should be traversed first
+            // then on next iteration, the left node will be on the first position
+            node.rightNode?.let {
                 stack.addFirst(node.leftNode!!)
             }
 
-            node.rightNode?.let {
+            node.leftNode?.let {
                 stack.addFirst(node.leftNode!!)
             }
 
