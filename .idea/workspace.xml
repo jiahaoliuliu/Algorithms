@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adb3e860-1e1d-4423-8c16-782b6b7fdf7b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/RemoveLinkedListElements.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/linkedlist/easy/RemoveLinkedListElements.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/jiaha/OneDrive/Documents/projects/github/Algorithms/src/main/kotlin/string",
+    "last_opened_file_path": "C:/Users/jiaha/OneDrive/Documents/projects/github/Algorithms/src/main/kotlin/tree",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -56,11 +56,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\Algorithms\src\main\kotlin\tree" />
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\Algorithms\src\main\kotlin\string" />
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\Algorithms\src\main\kotlin\linkedlist\easy" />
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\Algorithms\src\main\kotlin\linkedlist" />
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\Algorithms\src\main\kotlin\math" />
-      <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\Algorithms\src\main\kotlin\search\sorted" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jiaha\OneDrive\Documents\projects\github\Algorithms\src\main\kotlin\linkedlist\medium" />
@@ -70,11 +70,11 @@
       <recent name="search.sorted" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="tree" />
       <recent name="string" />
       <recent name="array" />
       <recent name="linkedlist.easy" />
       <recent name="dynamicprogramming" />
-      <recent name="heap" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.LinkedListLengthImpl">
