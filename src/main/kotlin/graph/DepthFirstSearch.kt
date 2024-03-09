@@ -19,17 +19,6 @@ import org.junit.Test
  *
  */
 
-class Graph {
-    var adjList: HashMap<Int, ArrayList<Int>>
-
-    constructor() {
-        adjList = HashMap()
-    }
-
-    constructor(adjList: HashMap<Int, ArrayList<Int>>) {
-        this.adjList = adjList
-    }
-}
 
 abstract class DepthFirstSearch {
 
@@ -91,6 +80,19 @@ class DepthFirstSearchRecursive: DepthFirstSearch() {
 }
 
 class DepthFirstSearchIterative: DepthFirstSearch() {
+
+    /**
+     *
+     * Depth first search
+     *
+     * Note the adjacent list is entered reversed. This is because it is a stack, so the
+     * first adjacent node should be on the top of the stack
+     *
+     * Complexity:
+     * - Time: O(|V| + |E|) where |V| is the number of vertices and |E| is the number of nodes
+     * - Space: O(|V|)
+     *
+     */
     override fun dfs(graph: Graph?, root: Int): IntArray {
         // 0. Corner cases
         if (graph == null) return intArrayOf()
