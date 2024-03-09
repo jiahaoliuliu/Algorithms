@@ -1,7 +1,5 @@
 package tree
 
-import org.junit.Test
-
 /**
  * Depth first search algorithm
  *

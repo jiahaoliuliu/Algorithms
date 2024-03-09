@@ -1,7 +1,5 @@
-package linkedlist.easy
+package linkedlist
 
-import linkedlist.ListNode
-import linkedlist.toLinkedList
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
