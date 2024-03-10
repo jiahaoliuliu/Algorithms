@@ -8,6 +8,10 @@ interface Node
 
 data class Edge(val node1: Node, val node2: Node, val distance: Int)
 
+/**
+ * Source: https://gist.github.com/trygvea/6067a744ee67c2f0447c3c7f5b715d62
+ * Video: https://www.youtube.com/watch?v=EFg3u_E6eHU
+ */
 class Dijkstra {
 
     /**
